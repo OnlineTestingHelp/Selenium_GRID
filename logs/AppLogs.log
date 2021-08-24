@@ -1,0 +1,1363 @@
+[INFO ] 2021-04-17 09:12:20.675 [main] base - Before Method is started
+[INFO ] 2021-04-17 09:12:20.680 [main] base - Executing on browser Chrome
+[DEBUG] 2021-04-17 09:12:20.841 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-04-17 09:12:20.849 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-04-17 09:12:20.849 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-04-17 09:12:20.856 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@43599640
+[DEBUG] 2021-04-17 09:12:20.892 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-04-17 09:12:20.895 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-04-17 09:12:20.896 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-04-17 09:12:20.897 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-04-17 09:12:20.898 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-04-17 09:12:20.899 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-04-17 09:12:20.900 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-04-17 09:12:20.901 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-04-17 09:12:20.901 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-04-17 09:12:20.902 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-04-17 09:12:20.902 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-04-17 09:12:20.903 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-04-17 09:12:20.904 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-04-17 09:12:20.907 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-04-17 09:12:20.908 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-04-17 09:12:20.911 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-04-17 09:12:20.912 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-04-17 09:12:20.927 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-04-17 09:12:21.012 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-04-17 09:12:21.013 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-04-17 09:12:22.014 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-04-17 09:12:22.015 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-04-17 09:12:22.108 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-04-17 09:12:22.125 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-04-17 09:12:22.125 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-04-17 09:12:22.144 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2cc3ad05
+[TRACE] 2021-04-17 09:12:22.146 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d9f6567
+[TRACE] 2021-04-17 09:12:22.147 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@c055c54
+[TRACE] 2021-04-17 09:12:22.148 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@25e2ab5a
+[TRACE] 2021-04-17 09:12:22.149 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35e5d0e5
+[TRACE] 2021-04-17 09:12:22.151 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@73173f63
+[TRACE] 2021-04-17 09:12:22.157 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@55562aa9
+[TRACE] 2021-04-17 09:12:22.162 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@655ef322
+[DEBUG] 2021-04-17 09:12:22.200 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-04-17 09:12:22.203 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-04-17 09:12:22.204 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-04-17 09:12:22.204 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-04-17 09:12:22.205 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-04-17 09:12:22.206 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-04-17 09:12:22.207 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-04-17 09:12:22.211 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-04-17 09:12:22.211 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-04-17 09:12:22.212 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-04-17 09:12:22.212 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-04-17 09:12:22.212 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-04-17 09:12:22.232 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-04-17 09:12:22.234 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-04-17 09:12:22.235 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-04-17 09:12:23.342 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 12900 (auto-detected)
+[DEBUG] 2021-04-17 09:12:23.344 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-04-17 09:12:23.345 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-04-17 09:12:23.717 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-04-17 09:12:23.719 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-04-17 09:12:24.119 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+[DEBUG] 2021-04-17 09:12:24.265 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-04-17 09:12:24.269 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-04-17 09:12:24.269 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@752d027
+[DEBUG] 2021-04-17 09:12:24.335 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-04-17 09:12:24.336 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-04-17 09:12:24.336 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-04-17 09:12:24.336 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-04-17 09:12:24.336 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-04-17 09:12:26.190 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xfc2aa1f81ddfa887
+[INFO ] 2021-04-17 09:12:30.270 [main] base - Browser is launched successfully
+[INFO ] 2021-04-17 09:12:35.236 [main] class - User is logged in successfully
+[TRACE] 2021-04-17 09:12:35.296 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-04-17 09:12:36.363 [main] base - Before Method is started
+[INFO ] 2021-04-17 09:12:36.363 [main] base - Executing on browser Chrome
+[INFO ] 2021-04-17 09:12:41.966 [main] base - Browser is launched successfully
+[INFO ] 2021-04-17 09:12:46.794 [main] class - User is logged in successfully
+[INFO ] 2021-04-17 09:12:55.409 [main] JobTitles - Job Title is created successfully
+[TRACE] 2021-04-17 09:12:55.629 [AsyncHttpClient-1-7] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[DEBUG] 2021-04-17 09:12:58.974 [AsyncHttpClient-1-2] PoolThreadCache - Freed 20 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+[DEBUG] 2021-04-17 09:12:58.974 [AsyncHttpClient-1-3] PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3
+[DEBUG] 2021-04-17 09:12:58.975 [AsyncHttpClient-1-5] PoolThreadCache - Freed 31 thread-local buffer(s) from thread: AsyncHttpClient-1-5
+[DEBUG] 2021-04-17 09:12:58.976 [AsyncHttpClient-1-4] PoolThreadCache - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+[DEBUG] 2021-04-17 09:12:58.977 [AsyncHttpClient-1-7] PoolThreadCache - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-7
+[DEBUG] 2021-04-17 09:12:58.978 [AsyncHttpClient-1-6] PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-6
+[INFO ] 2021-04-19 08:44:32.982 [main] base - Before Method is started
+[INFO ] 2021-04-19 08:44:33.029 [main] base - Executing on browser Chrome
+[DEBUG] 2021-04-19 08:44:33.600 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-04-19 08:44:33.645 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-04-19 08:44:33.645 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-04-19 08:44:33.666 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5167268
+[DEBUG] 2021-04-19 08:44:33.725 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-04-19 08:44:33.729 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-04-19 08:44:33.730 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-04-19 08:44:33.733 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-04-19 08:44:33.736 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-04-19 08:44:33.741 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-04-19 08:44:33.743 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-04-19 08:44:33.745 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-04-19 08:44:33.746 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-04-19 08:44:33.747 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-04-19 08:44:33.747 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-04-19 08:44:33.749 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-04-19 08:44:33.749 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-04-19 08:44:33.752 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-04-19 08:44:33.753 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-04-19 08:44:33.755 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-04-19 08:44:33.755 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-04-19 08:44:33.789 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-04-19 08:44:33.922 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-04-19 08:44:33.923 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-04-19 08:44:35.547 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-04-19 08:44:35.547 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-04-19 08:44:35.621 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-04-19 08:44:35.649 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-04-19 08:44:35.649 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-04-19 08:44:35.676 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3c0fbd3a
+[TRACE] 2021-04-19 08:44:35.677 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2f7dcef2
+[TRACE] 2021-04-19 08:44:35.678 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4a3be6a5
+[TRACE] 2021-04-19 08:44:35.679 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cf162bc
+[TRACE] 2021-04-19 08:44:35.680 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3721177d
+[TRACE] 2021-04-19 08:44:35.681 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@766a4535
+[TRACE] 2021-04-19 08:44:35.682 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63718b93
+[TRACE] 2021-04-19 08:44:35.684 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@14e2e1c3
+[DEBUG] 2021-04-19 08:44:35.745 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-04-19 08:44:35.746 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-04-19 08:44:35.746 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-04-19 08:44:35.746 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-04-19 08:44:35.746 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-04-19 08:44:35.746 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-04-19 08:44:35.747 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-04-19 08:44:35.749 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-04-19 08:44:35.749 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-04-19 08:44:35.750 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-04-19 08:44:35.750 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-04-19 08:44:35.751 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-04-19 08:44:35.794 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-04-19 08:44:35.794 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-04-19 08:44:35.795 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-04-19 08:44:38.031 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 976 (auto-detected)
+[DEBUG] 2021-04-19 08:44:38.036 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-04-19 08:44:38.037 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-04-19 08:44:38.457 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-04-19 08:44:38.460 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-04-19 08:44:38.906 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+[DEBUG] 2021-04-19 08:44:39.100 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-04-19 08:44:39.101 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-04-19 08:44:39.101 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@37449332
+[DEBUG] 2021-04-19 08:44:39.177 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-04-19 08:44:39.178 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-04-19 08:44:39.178 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-04-19 08:44:39.178 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-04-19 08:44:39.179 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-04-19 08:44:41.501 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xeab02c2f2bc4a043
+[INFO ] 2021-04-19 08:44:45.418 [main] base - Browser is launched successfully
+[INFO ] 2021-04-19 08:44:50.310 [main] class - User is logged in successfully
+[INFO ] 2021-04-19 08:44:56.294 [main] JobTitles - Add Pay Grade Page is opened successfully
+[INFO ] 2021-04-19 08:44:57.652 [main] JobTitles - Edit Pay Grade Page is opened successfully
+[INFO ] 2021-04-19 08:44:57.804 [main] JobTitles - Add Currency Page is opened successfully
+[INFO ] 2021-04-19 08:54:45.525 [main] base - Before Method is started
+[INFO ] 2021-04-19 08:54:45.533 [main] base - Executing on browser Chrome
+[DEBUG] 2021-04-19 08:54:45.789 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-04-19 08:54:45.809 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-04-19 08:54:45.811 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-04-19 08:54:45.822 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5167268
+[DEBUG] 2021-04-19 08:54:45.863 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-04-19 08:54:45.869 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-04-19 08:54:45.869 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-04-19 08:54:45.874 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-04-19 08:54:45.876 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-04-19 08:54:45.877 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-04-19 08:54:45.879 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-04-19 08:54:45.880 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-04-19 08:54:45.880 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-04-19 08:54:45.881 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-04-19 08:54:45.881 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-04-19 08:54:45.881 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-04-19 08:54:45.882 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-04-19 08:54:45.886 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-04-19 08:54:45.888 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-04-19 08:54:45.892 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-04-19 08:54:45.894 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-04-19 08:54:45.931 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-04-19 08:54:45.999 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-04-19 08:54:46.000 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-04-19 08:54:47.137 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-04-19 08:54:47.137 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-04-19 08:54:47.217 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-04-19 08:54:47.241 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-04-19 08:54:47.242 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-04-19 08:54:47.259 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@17b64941
+[TRACE] 2021-04-19 08:54:47.260 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@344426bf
+[TRACE] 2021-04-19 08:54:47.262 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5411dd90
+[TRACE] 2021-04-19 08:54:47.263 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@50194e8d
+[TRACE] 2021-04-19 08:54:47.265 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3cee53dc
+[TRACE] 2021-04-19 08:54:47.266 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@290aeb20
+[TRACE] 2021-04-19 08:54:47.272 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@73ad4ecc
+[TRACE] 2021-04-19 08:54:47.276 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@69da0b12
+[DEBUG] 2021-04-19 08:54:47.330 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-04-19 08:54:47.331 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-04-19 08:54:47.338 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-04-19 08:54:47.339 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-04-19 08:54:47.340 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-04-19 08:54:47.345 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-04-19 08:54:47.351 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-04-19 08:54:47.354 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-04-19 08:54:47.354 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-04-19 08:54:47.354 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-04-19 08:54:47.355 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-04-19 08:54:47.355 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-04-19 08:54:47.379 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-04-19 08:54:47.379 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-04-19 08:54:47.379 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-04-19 08:54:48.665 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 13064 (auto-detected)
+[DEBUG] 2021-04-19 08:54:48.668 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-04-19 08:54:48.669 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-04-19 08:54:49.119 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-04-19 08:54:49.122 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-04-19 08:54:49.603 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+[DEBUG] 2021-04-19 08:54:49.761 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-04-19 08:54:49.775 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-04-19 08:54:49.775 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@337f175e
+[DEBUG] 2021-04-19 08:54:49.865 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-04-19 08:54:49.866 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-04-19 08:54:49.866 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-04-19 08:54:49.866 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-04-19 08:54:49.866 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-04-19 08:54:51.742 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x936def92c57dba8f
+[INFO ] 2021-04-19 08:54:56.833 [main] base - Browser is launched successfully
+[INFO ] 2021-04-19 08:55:01.767 [main] class - User is logged in successfully
+[INFO ] 2021-04-19 08:55:07.508 [main] JobTitles - Add Pay Grade Page is opened successfully
+[INFO ] 2021-04-19 08:55:26.228 [main] JobTitles - Edit Pay Grade Page is opened successfully
+[INFO ] 2021-04-19 08:55:26.383 [main] JobTitles - Add Currency Page is opened successfully
+[INFO ] 2021-04-19 09:01:24.500 [main] base - Before Method is started
+[INFO ] 2021-04-19 09:01:24.508 [main] base - Executing on browser Chrome
+[DEBUG] 2021-04-19 09:01:24.773 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-04-19 09:01:24.786 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-04-19 09:01:24.787 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-04-19 09:01:24.805 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5167268
+[DEBUG] 2021-04-19 09:01:24.871 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-04-19 09:01:24.876 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-04-19 09:01:24.877 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-04-19 09:01:24.880 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-04-19 09:01:24.881 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-04-19 09:01:24.882 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-04-19 09:01:24.883 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-04-19 09:01:24.885 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-04-19 09:01:24.885 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-04-19 09:01:24.885 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-04-19 09:01:24.885 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-04-19 09:01:24.886 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-04-19 09:01:24.886 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-04-19 09:01:24.888 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-04-19 09:01:24.888 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-04-19 09:01:24.890 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-04-19 09:01:24.890 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-04-19 09:01:24.921 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-04-19 09:01:24.985 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-04-19 09:01:24.986 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-04-19 09:01:26.179 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-04-19 09:01:26.179 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-04-19 09:01:26.252 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-04-19 09:01:26.280 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-04-19 09:01:26.281 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-04-19 09:01:26.299 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@26a4551a
+[TRACE] 2021-04-19 09:01:26.301 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3cee53dc
+[TRACE] 2021-04-19 09:01:26.303 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@290aeb20
+[TRACE] 2021-04-19 09:01:26.305 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@73ad4ecc
+[TRACE] 2021-04-19 09:01:26.306 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@69da0b12
+[TRACE] 2021-04-19 09:01:26.306 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2764c546
+[TRACE] 2021-04-19 09:01:26.307 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@59496961
+[TRACE] 2021-04-19 09:01:26.309 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@408b87aa
+[DEBUG] 2021-04-19 09:01:26.375 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-04-19 09:01:26.376 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-04-19 09:01:26.376 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-04-19 09:01:26.376 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-04-19 09:01:26.376 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-04-19 09:01:26.377 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-04-19 09:01:26.377 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-04-19 09:01:26.377 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-04-19 09:01:26.377 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-04-19 09:01:26.378 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-04-19 09:01:26.378 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-04-19 09:01:26.378 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-04-19 09:01:26.412 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-04-19 09:01:26.413 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-04-19 09:01:26.413 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-04-19 09:01:27.737 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 7644 (auto-detected)
+[DEBUG] 2021-04-19 09:01:27.741 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-04-19 09:01:27.742 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-04-19 09:01:28.165 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-04-19 09:01:28.166 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-04-19 09:01:28.609 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+[DEBUG] 2021-04-19 09:01:28.748 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-04-19 09:01:28.748 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-04-19 09:01:28.749 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4d168168
+[DEBUG] 2021-04-19 09:01:28.820 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-04-19 09:01:28.821 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-04-19 09:01:28.821 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-04-19 09:01:28.821 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-04-19 09:01:28.821 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-04-19 09:01:30.714 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xc3d601b48d0e12ad
+[INFO ] 2021-04-19 09:01:35.560 [main] base - Browser is launched successfully
+[INFO ] 2021-04-19 09:01:40.709 [main] class - User is logged in successfully
+[INFO ] 2021-04-19 09:01:46.658 [main] JobTitles - Add Pay Grade Page is opened successfully
+[INFO ] 2021-04-19 09:01:47.932 [main] JobTitles - Edit Pay Grade Page is opened successfully
+[INFO ] 2021-04-19 09:01:48.073 [main] JobTitles - Add Currency Page is opened successfully
+[TRACE] 2021-04-19 09:02:53.106 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-04-19 09:26:17.126 [main] base - Before Method is started
+[INFO ] 2021-04-19 09:26:17.133 [main] base - Executing on browser Chrome
+[DEBUG] 2021-04-19 09:26:17.350 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-04-19 09:26:17.365 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-04-19 09:26:17.365 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-04-19 09:26:17.373 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5167268
+[DEBUG] 2021-04-19 09:26:17.412 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-04-19 09:26:17.416 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-04-19 09:26:17.416 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-04-19 09:26:17.418 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-04-19 09:26:17.419 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-04-19 09:26:17.420 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-04-19 09:26:17.423 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-04-19 09:26:17.424 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-04-19 09:26:17.424 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-04-19 09:26:17.425 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-04-19 09:26:17.426 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-04-19 09:26:17.426 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-04-19 09:26:17.427 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-04-19 09:26:17.429 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-04-19 09:26:17.429 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-04-19 09:26:17.434 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-04-19 09:26:17.434 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-04-19 09:26:17.452 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-04-19 09:26:17.533 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-04-19 09:26:17.534 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-04-19 09:26:18.505 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-04-19 09:26:18.505 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-04-19 09:26:18.583 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-04-19 09:26:18.604 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-04-19 09:26:18.604 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-04-19 09:26:18.622 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6fd5717c
+[TRACE] 2021-04-19 09:26:18.624 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5136207f
+[TRACE] 2021-04-19 09:26:18.625 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@26a4551a
+[TRACE] 2021-04-19 09:26:18.625 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3fdecce
+[TRACE] 2021-04-19 09:26:18.626 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@344426bf
+[TRACE] 2021-04-19 09:26:18.627 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5411dd90
+[TRACE] 2021-04-19 09:26:18.628 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@50194e8d
+[TRACE] 2021-04-19 09:26:18.629 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3cee53dc
+[DEBUG] 2021-04-19 09:26:18.692 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-04-19 09:26:18.693 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-04-19 09:26:18.693 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-04-19 09:26:18.693 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-04-19 09:26:18.697 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-04-19 09:26:18.697 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-04-19 09:26:18.698 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-04-19 09:26:18.698 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-04-19 09:26:18.700 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-04-19 09:26:18.702 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-04-19 09:26:18.706 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-04-19 09:26:18.707 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-04-19 09:26:18.739 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-04-19 09:26:18.740 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-04-19 09:26:18.740 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-04-19 09:26:19.899 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 8032 (auto-detected)
+[DEBUG] 2021-04-19 09:26:19.903 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-04-19 09:26:19.904 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-04-19 09:26:20.287 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-04-19 09:26:20.289 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-04-19 09:26:20.693 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+[DEBUG] 2021-04-19 09:26:20.815 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-04-19 09:26:20.816 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-04-19 09:26:20.816 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4fa93dfd
+[DEBUG] 2021-04-19 09:26:20.894 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-04-19 09:26:20.895 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-04-19 09:26:20.896 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-04-19 09:26:20.896 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-04-19 09:26:20.896 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-04-19 09:26:22.557 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x6bbd9b3301f6c166
+[INFO ] 2021-04-19 09:26:27.700 [main] base - Browser is launched successfully
+[INFO ] 2021-04-19 09:26:33.061 [main] class - User is logged in successfully
+[TRACE] 2021-04-19 09:27:13.737 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[DEBUG] 2021-04-19 09:27:16.743 [AsyncHttpClient-1-4] PoolThreadCache - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+[DEBUG] 2021-04-19 09:27:16.743 [AsyncHttpClient-1-2] PoolThreadCache - Freed 24 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+[DEBUG] 2021-04-19 09:27:16.743 [AsyncHttpClient-1-3] PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3
+[INFO ] 2021-04-19 09:37:30.679 [main] base - Before Method is started
+[INFO ] 2021-04-19 09:37:30.684 [main] base - Executing on browser Chrome
+[DEBUG] 2021-04-19 09:37:30.833 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-04-19 09:37:30.847 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-04-19 09:37:30.848 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-04-19 09:37:30.859 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@48c76607
+[DEBUG] 2021-04-19 09:37:30.904 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-04-19 09:37:30.909 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-04-19 09:37:30.910 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-04-19 09:37:30.913 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-04-19 09:37:30.914 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-04-19 09:37:30.915 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-04-19 09:37:30.916 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-04-19 09:37:30.917 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-04-19 09:37:30.918 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-04-19 09:37:30.918 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-04-19 09:37:30.918 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-04-19 09:37:30.919 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-04-19 09:37:30.920 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-04-19 09:37:30.925 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-04-19 09:37:30.926 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-04-19 09:37:30.932 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-04-19 09:37:30.935 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-04-19 09:37:30.960 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-04-19 09:37:31.042 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-04-19 09:37:31.045 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-04-19 09:37:32.109 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-04-19 09:37:32.110 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-04-19 09:37:32.193 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-04-19 09:37:32.212 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-04-19 09:37:32.212 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-04-19 09:37:32.231 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2101b44a
+[TRACE] 2021-04-19 09:37:32.233 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@119020fb
+[TRACE] 2021-04-19 09:37:32.234 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d9f6567
+[TRACE] 2021-04-19 09:37:32.235 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@c055c54
+[TRACE] 2021-04-19 09:37:32.236 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@25e2ab5a
+[TRACE] 2021-04-19 09:37:32.237 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35e5d0e5
+[TRACE] 2021-04-19 09:37:32.238 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@73173f63
+[TRACE] 2021-04-19 09:37:32.240 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@55562aa9
+[DEBUG] 2021-04-19 09:37:32.298 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-04-19 09:37:32.299 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-04-19 09:37:32.299 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-04-19 09:37:32.303 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-04-19 09:37:32.304 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-04-19 09:37:32.305 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-04-19 09:37:32.306 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-04-19 09:37:32.306 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-04-19 09:37:32.306 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-04-19 09:37:32.307 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-04-19 09:37:32.309 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-04-19 09:37:32.310 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-04-19 09:37:32.326 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-04-19 09:37:32.326 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-04-19 09:37:32.326 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-04-19 09:37:34.096 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 15312 (auto-detected)
+[DEBUG] 2021-04-19 09:37:34.099 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-04-19 09:37:34.099 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-04-19 09:37:34.523 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-04-19 09:37:34.525 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-04-19 09:37:34.943 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+[DEBUG] 2021-04-19 09:37:35.067 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-04-19 09:37:35.068 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-04-19 09:37:35.069 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@706402c8
+[DEBUG] 2021-04-19 09:37:35.135 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-04-19 09:37:35.135 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-04-19 09:37:35.135 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-04-19 09:37:35.136 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-04-19 09:37:35.137 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-04-19 09:37:36.870 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x2837f65d5e2e8d76
+[INFO ] 2021-04-19 09:37:41.172 [main] base - Browser is launched successfully
+[INFO ] 2021-04-19 09:37:45.645 [main] class - User is logged in successfully
+[INFO ] 2021-04-19 09:37:53.763 [main] JobTitles - Emp is added successfully
+[TRACE] 2021-04-19 09:37:55.967 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[DEBUG] 2021-04-19 09:37:58.644 [AsyncHttpClient-1-2] PoolThreadCache - Freed 32 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+[DEBUG] 2021-04-19 09:37:58.645 [AsyncHttpClient-1-3] PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3
+[DEBUG] 2021-04-19 09:37:58.645 [AsyncHttpClient-1-4] PoolThreadCache - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+[INFO ] 2021-08-20 20:26:34.318 [main] base - Before Method is started
+[INFO ] 2021-08-20 20:26:34.323 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-20 20:26:34.636 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-20 20:26:34.679 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-20 20:26:34.679 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-20 20:26:34.689 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@48c76607
+[DEBUG] 2021-08-20 20:26:34.740 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-20 20:26:34.746 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-20 20:26:34.748 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-20 20:26:34.752 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-20 20:26:34.754 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-20 20:26:34.756 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-20 20:26:34.757 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-20 20:26:34.759 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-20 20:26:34.760 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-20 20:26:34.760 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-20 20:26:34.761 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-20 20:26:34.772 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-20 20:26:34.773 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-20 20:26:34.776 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-20 20:26:34.776 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-20 20:26:34.780 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-20 20:26:34.781 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-20 20:26:34.800 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-20 20:26:34.924 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-20 20:26:34.925 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-20 20:26:35.997 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-20 20:26:35.997 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-20 20:26:36.074 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-20 20:26:36.091 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-20 20:26:36.091 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-20 20:26:36.112 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@52d645b1
+[TRACE] 2021-08-20 20:26:36.113 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@710b18a6
+[TRACE] 2021-08-20 20:26:36.115 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@119020fb
+[TRACE] 2021-08-20 20:26:36.115 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d9f6567
+[TRACE] 2021-08-20 20:26:36.116 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@c055c54
+[TRACE] 2021-08-20 20:26:36.118 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@25e2ab5a
+[TRACE] 2021-08-20 20:26:36.119 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35e5d0e5
+[TRACE] 2021-08-20 20:26:36.120 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@73173f63
+[DEBUG] 2021-08-20 20:26:36.177 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-20 20:26:36.178 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-20 20:26:36.178 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-20 20:26:36.179 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-20 20:26:36.179 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-20 20:26:36.179 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-20 20:26:36.180 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-20 20:26:36.180 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-20 20:26:36.181 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-20 20:26:36.181 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-20 20:26:36.181 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-20 20:26:36.182 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-20 20:26:36.203 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-20 20:26:36.204 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-20 20:26:36.204 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-20 20:26:38.607 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 6544 (auto-detected)
+[DEBUG] 2021-08-20 20:26:38.611 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-20 20:26:38.611 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-20 20:26:39.014 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-20 20:26:39.016 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-20 20:26:39.443 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-20 20:26:39.576 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-20 20:26:39.577 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-20 20:26:39.578 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b5ed2b5
+[DEBUG] 2021-08-20 20:26:39.660 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-20 20:26:39.661 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-20 20:26:39.661 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-20 20:26:39.662 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-20 20:26:39.662 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-08-20 20:26:45.112 [AsyncHttpClient-1-2] PoolThreadCache - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+[INFO ] 2021-08-20 20:28:37.622 [main] base - Before Method is started
+[INFO ] 2021-08-20 20:28:37.630 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-20 20:28:44.627 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-20 20:28:44.635 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-20 20:28:44.636 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-20 20:28:44.642 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@302fec27
+[DEBUG] 2021-08-20 20:28:44.673 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-20 20:28:44.676 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-20 20:28:44.676 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-20 20:28:44.678 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-20 20:28:44.679 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-20 20:28:44.680 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-20 20:28:44.682 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-20 20:28:44.683 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-20 20:28:44.683 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-20 20:28:44.683 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-20 20:28:44.683 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-20 20:28:44.684 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-20 20:28:44.684 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-20 20:28:44.685 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-20 20:28:44.686 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-20 20:28:44.689 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-20 20:28:44.689 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-20 20:28:44.720 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-20 20:28:44.799 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-20 20:28:44.800 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-20 20:28:44.830 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-20 20:28:44.831 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-20 20:28:44.925 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-20 20:28:44.977 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-20 20:28:44.977 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-20 20:28:45.023 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@182b435b
+[TRACE] 2021-08-20 20:28:45.028 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7577b641
+[TRACE] 2021-08-20 20:28:45.030 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3704122f
+[TRACE] 2021-08-20 20:28:45.032 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3153ddfc
+[TRACE] 2021-08-20 20:28:45.033 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@60afd40d
+[TRACE] 2021-08-20 20:28:45.035 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@28a2a3e7
+[TRACE] 2021-08-20 20:28:45.038 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3f2049b6
+[TRACE] 2021-08-20 20:28:45.041 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@10b3df93
+[DEBUG] 2021-08-20 20:28:45.103 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-20 20:28:45.104 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-20 20:28:45.104 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-20 20:28:45.105 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-20 20:28:45.105 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-20 20:28:45.106 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-20 20:28:45.106 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-20 20:28:45.107 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-20 20:28:45.108 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-20 20:28:45.108 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-20 20:28:45.108 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-20 20:28:45.109 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-20 20:28:45.137 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-20 20:28:45.138 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-20 20:28:45.138 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-20 20:28:48.126 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 14248 (auto-detected)
+[DEBUG] 2021-08-20 20:28:48.140 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-20 20:28:48.141 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-20 20:28:48.986 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-20 20:28:48.988 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-20 20:28:49.633 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-20 20:28:49.735 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-20 20:28:49.737 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-20 20:28:49.737 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7d3a70c5
+[DEBUG] 2021-08-20 20:28:49.796 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-20 20:28:49.798 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-20 20:28:49.799 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-20 20:28:49.800 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-20 20:28:49.800 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-08-20 20:28:51.799 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x987a5cfd2d8a86e0
+[INFO ] 2021-08-20 20:28:56.254 [main] base - Browser is launched successfully
+[INFO ] 2021-08-20 20:29:01.170 [main] class - User is logged in successfully
+[TRACE] 2021-08-20 20:29:01.432 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[DEBUG] 2021-08-20 20:29:03.983 [AsyncHttpClient-1-4] PoolThreadCache - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+[DEBUG] 2021-08-20 20:29:03.983 [AsyncHttpClient-1-3] PoolThreadCache - Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3
+[DEBUG] 2021-08-20 20:29:03.985 [AsyncHttpClient-1-2] PoolThreadCache - Freed 23 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+[INFO ] 2021-08-23 20:08:19.974 [main] base - Before Method is started
+[INFO ] 2021-08-23 20:08:19.990 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-23 20:08:24.434 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-23 20:08:24.446 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-23 20:08:24.447 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-23 20:08:24.455 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6a1d204a
+[DEBUG] 2021-08-23 20:08:24.489 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-23 20:08:24.498 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-23 20:08:24.498 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-23 20:08:24.500 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-23 20:08:24.501 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-23 20:08:24.502 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-23 20:08:24.503 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-23 20:08:24.504 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-23 20:08:24.504 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-23 20:08:24.504 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-23 20:08:24.505 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-23 20:08:24.516 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-23 20:08:24.516 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-23 20:08:24.518 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-23 20:08:24.518 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-23 20:08:24.520 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-23 20:08:24.521 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-23 20:08:24.535 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-23 20:08:24.568 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-23 20:08:24.568 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-23 20:08:24.609 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-23 20:08:24.609 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-23 20:08:24.660 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-23 20:08:24.673 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-23 20:08:24.673 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-23 20:08:24.686 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@51650883
+[TRACE] 2021-08-23 20:08:24.687 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@30c31dd7
+[TRACE] 2021-08-23 20:08:24.688 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@499b2a5c
+[TRACE] 2021-08-23 20:08:24.689 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@596df867
+[TRACE] 2021-08-23 20:08:24.690 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@c1fca1e
+[TRACE] 2021-08-23 20:08:24.691 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@241a53ef
+[TRACE] 2021-08-23 20:08:24.692 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@344344fa
+[TRACE] 2021-08-23 20:08:24.694 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2db2cd5
+[DEBUG] 2021-08-23 20:08:24.735 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-23 20:08:24.736 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-23 20:08:24.736 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-23 20:08:24.736 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-23 20:08:24.737 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-23 20:08:24.737 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-23 20:08:24.737 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-23 20:08:24.738 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-23 20:08:24.738 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-23 20:08:24.739 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-23 20:08:24.747 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-23 20:08:24.747 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-23 20:08:24.780 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-23 20:08:24.780 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-23 20:08:24.781 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-23 20:08:31.048 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 16360 (auto-detected)
+[DEBUG] 2021-08-23 20:08:31.054 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-23 20:08:31.054 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-23 20:08:31.747 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-23 20:08:31.751 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-23 20:08:32.791 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-23 20:08:32.930 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-23 20:08:32.937 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-23 20:08:32.938 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6f7c32ca
+[DEBUG] 2021-08-23 20:08:33.007 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-23 20:08:33.027 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-23 20:08:33.027 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-23 20:08:33.027 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-23 20:08:33.027 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-08-23 20:08:36.962 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x2d375e7f2646d816
+[INFO ] 2021-08-23 20:08:42.258 [main] base - Browser is launched successfully
+[INFO ] 2021-08-23 20:08:48.440 [main] class - User is logged in successfully
+[TRACE] 2021-08-23 20:08:48.663 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-08-24 18:21:41.550 [main] base - Before Method is started
+[INFO ] 2021-08-24 18:21:41.570 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-24 18:21:43.162 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-24 18:21:43.169 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-24 18:21:43.170 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-24 18:21:43.176 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3546d80f
+[DEBUG] 2021-08-24 18:21:43.214 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-24 18:21:43.216 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-24 18:21:43.218 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-24 18:21:43.219 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-24 18:21:43.220 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-24 18:21:43.221 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-24 18:21:43.222 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-24 18:21:43.223 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-24 18:21:43.224 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-24 18:21:43.224 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-24 18:21:43.224 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-24 18:21:43.236 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-24 18:21:43.237 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-24 18:21:43.238 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-24 18:21:43.238 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-24 18:21:43.240 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-24 18:21:43.240 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-24 18:21:43.250 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-24 18:21:43.272 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-24 18:21:43.272 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-24 18:21:43.293 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-24 18:21:43.294 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-24 18:21:43.337 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-24 18:21:43.356 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-24 18:21:43.356 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-24 18:21:43.377 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@62577d6
+[TRACE] 2021-08-24 18:21:43.379 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@772485dd
+[TRACE] 2021-08-24 18:21:43.380 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5a12c728
+[TRACE] 2021-08-24 18:21:43.381 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@79ab3a71
+[TRACE] 2021-08-24 18:21:43.382 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6e5bfdfc
+[TRACE] 2021-08-24 18:21:43.383 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d829787
+[TRACE] 2021-08-24 18:21:43.384 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@71652c98
+[TRACE] 2021-08-24 18:21:43.385 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@51bde877
+[DEBUG] 2021-08-24 18:21:43.420 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-24 18:21:43.421 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-24 18:21:43.421 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-24 18:21:43.421 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-24 18:21:43.421 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-24 18:21:43.421 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-24 18:21:43.422 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-24 18:21:43.422 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-24 18:21:43.422 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-24 18:21:43.422 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-24 18:21:43.422 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-24 18:21:43.423 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-24 18:21:43.449 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-24 18:21:43.449 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-24 18:21:43.449 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-24 18:21:43.854 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 17496 (auto-detected)
+[DEBUG] 2021-08-24 18:21:43.859 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-24 18:21:43.860 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-24 18:21:44.233 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-24 18:21:44.234 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-24 18:21:44.609 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-24 18:21:44.693 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-24 18:21:44.694 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-24 18:21:44.694 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@55936721
+[DEBUG] 2021-08-24 18:21:44.733 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-24 18:21:44.733 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-24 18:21:44.733 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-24 18:21:44.733 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-24 18:21:44.734 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[INFO ] 2021-08-24 18:22:35.546 [main] base - Before Method is started
+[INFO ] 2021-08-24 18:22:35.550 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-24 18:22:35.674 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-24 18:22:35.674 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-24 18:22:35.674 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-24 18:22:35.689 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4196c360
+[DEBUG] 2021-08-24 18:22:35.705 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-24 18:22:35.705 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-24 18:22:35.705 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-24 18:22:35.720 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-24 18:22:35.720 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-24 18:22:35.736 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-24 18:22:35.758 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-24 18:22:35.758 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-24 18:22:36.481 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-24 18:22:36.482 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-24 18:22:36.527 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-24 18:22:36.538 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-24 18:22:36.538 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-24 18:22:36.549 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6da00fb9
+[TRACE] 2021-08-24 18:22:36.552 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75b25825
+[TRACE] 2021-08-24 18:22:36.553 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18025ced
+[TRACE] 2021-08-24 18:22:36.554 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@13cf7d52
+[TRACE] 2021-08-24 18:22:36.555 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a3e4aff
+[TRACE] 2021-08-24 18:22:36.556 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5d2a4eed
+[TRACE] 2021-08-24 18:22:36.557 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@57459491
+[TRACE] 2021-08-24 18:22:36.558 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3f0846c6
+[DEBUG] 2021-08-24 18:22:36.584 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-24 18:22:36.584 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-24 18:22:36.584 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-24 18:22:36.584 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-24 18:22:36.585 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-24 18:22:36.585 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-24 18:22:36.585 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-24 18:22:36.585 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-24 18:22:36.585 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-24 18:22:36.585 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-24 18:22:36.585 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-24 18:22:36.586 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-24 18:22:36.599 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-24 18:22:36.599 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-24 18:22:36.600 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-24 18:22:36.942 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 6332 (auto-detected)
+[DEBUG] 2021-08-24 18:22:36.943 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-24 18:22:36.944 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-24 18:22:37.233 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-24 18:22:37.234 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-24 18:22:37.557 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-24 18:22:37.620 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-24 18:22:37.621 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-24 18:22:37.622 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@32b3faf3
+[DEBUG] 2021-08-24 18:22:37.665 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-24 18:22:37.665 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-24 18:22:37.666 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-24 18:22:37.666 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-24 18:22:37.666 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[INFO ] 2021-08-24 18:27:09.910 [main] base - Before Method is started
+[INFO ] 2021-08-24 18:27:09.914 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-24 18:27:10.051 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-24 18:27:10.058 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-24 18:27:10.058 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-24 18:27:10.066 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4196c360
+[DEBUG] 2021-08-24 18:27:10.090 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-24 18:27:10.092 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-24 18:27:10.092 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-24 18:27:10.094 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-24 18:27:10.094 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-24 18:27:10.095 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-24 18:27:10.096 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-24 18:27:10.098 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-24 18:27:10.098 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-24 18:27:10.098 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-24 18:27:10.098 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-24 18:27:10.099 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-24 18:27:10.100 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-24 18:27:10.101 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-24 18:27:10.101 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-24 18:27:10.103 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-24 18:27:10.103 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-24 18:27:10.115 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-24 18:27:10.142 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-24 18:27:10.142 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-24 18:27:10.846 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-24 18:27:10.846 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-24 18:27:10.894 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-24 18:27:10.905 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-24 18:27:10.905 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-24 18:27:10.920 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6da00fb9
+[TRACE] 2021-08-24 18:27:10.922 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75b25825
+[TRACE] 2021-08-24 18:27:10.923 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18025ced
+[TRACE] 2021-08-24 18:27:10.924 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@13cf7d52
+[TRACE] 2021-08-24 18:27:10.924 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a3e4aff
+[TRACE] 2021-08-24 18:27:10.925 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5d2a4eed
+[TRACE] 2021-08-24 18:27:10.927 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@57459491
+[TRACE] 2021-08-24 18:27:10.928 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3f0846c6
+[DEBUG] 2021-08-24 18:27:10.953 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-24 18:27:10.954 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-24 18:27:10.954 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-24 18:27:10.954 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-24 18:27:10.954 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-24 18:27:10.954 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-24 18:27:10.954 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-24 18:27:10.955 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-24 18:27:10.955 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-24 18:27:10.955 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-24 18:27:10.955 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-24 18:27:10.955 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-24 18:27:10.968 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-24 18:27:10.968 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-24 18:27:10.969 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-24 18:27:11.332 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 12396 (auto-detected)
+[DEBUG] 2021-08-24 18:27:11.336 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-24 18:27:11.336 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-24 18:27:11.649 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-24 18:27:11.651 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-24 18:27:11.980 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-24 18:27:12.038 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-24 18:27:12.039 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-24 18:27:12.039 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1dae94d5
+[DEBUG] 2021-08-24 18:27:12.081 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-24 18:27:12.081 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-24 18:27:12.081 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-24 18:27:12.082 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-24 18:27:12.082 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[INFO ] 2021-08-24 18:31:11.298 [main] base - Before Method is started
+[INFO ] 2021-08-24 18:31:11.302 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-24 18:31:11.430 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-24 18:31:11.436 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-24 18:31:11.437 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-24 18:31:11.445 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4196c360
+[DEBUG] 2021-08-24 18:31:11.467 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-24 18:31:11.469 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-24 18:31:11.470 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-24 18:31:11.472 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-24 18:31:11.473 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-24 18:31:11.474 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-24 18:31:11.475 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-24 18:31:11.477 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-24 18:31:11.477 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-24 18:31:11.477 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-24 18:31:11.477 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-24 18:31:11.478 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-24 18:31:11.479 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-24 18:31:11.481 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-24 18:31:11.481 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-24 18:31:11.483 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-24 18:31:11.483 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-24 18:31:11.493 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-24 18:31:11.519 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-24 18:31:11.519 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-24 18:31:12.263 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-24 18:31:12.264 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-24 18:31:12.311 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-24 18:31:12.323 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-24 18:31:12.324 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-24 18:31:12.337 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39ad977d
+[TRACE] 2021-08-24 18:31:12.338 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@20f12539
+[TRACE] 2021-08-24 18:31:12.340 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75b25825
+[TRACE] 2021-08-24 18:31:12.340 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18025ced
+[TRACE] 2021-08-24 18:31:12.341 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@13cf7d52
+[TRACE] 2021-08-24 18:31:12.342 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a3e4aff
+[TRACE] 2021-08-24 18:31:12.343 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5d2a4eed
+[TRACE] 2021-08-24 18:31:12.344 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@57459491
+[DEBUG] 2021-08-24 18:31:12.370 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-24 18:31:12.370 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-24 18:31:12.370 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-24 18:31:12.370 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-24 18:31:12.370 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-24 18:31:12.370 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-24 18:31:12.371 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-24 18:31:12.371 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-24 18:31:12.371 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-24 18:31:12.371 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-24 18:31:12.371 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-24 18:31:12.371 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-24 18:31:12.383 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-24 18:31:12.384 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-24 18:31:12.384 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-24 18:31:12.724 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 19408 (auto-detected)
+[DEBUG] 2021-08-24 18:31:12.727 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-24 18:31:12.727 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-24 18:31:13.015 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-24 18:31:13.016 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-24 18:31:13.324 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-24 18:31:13.390 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-24 18:31:13.390 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-24 18:31:13.391 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5f7dc35c
+[DEBUG] 2021-08-24 18:31:13.434 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-24 18:31:13.434 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-24 18:31:13.435 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-24 18:31:13.435 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-24 18:31:13.435 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[INFO ] 2021-08-24 18:31:20.670 [main] base - Browser is launched successfully
+[INFO ] 2021-08-24 18:31:27.151 [main] class - User is logged in successfully
+[INFO ] 2021-08-24 18:32:12.879 [main] base - Before Method is started
+[INFO ] 2021-08-24 18:32:12.885 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-24 18:32:13.070 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-24 18:32:13.080 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-24 18:32:13.081 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-24 18:32:13.089 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4196c360
+[DEBUG] 2021-08-24 18:32:13.120 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-24 18:32:13.124 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-24 18:32:13.124 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-24 18:32:13.126 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-24 18:32:13.127 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-24 18:32:13.128 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-24 18:32:13.129 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-24 18:32:13.130 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-24 18:32:13.131 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-24 18:32:13.131 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-24 18:32:13.131 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-24 18:32:13.132 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-24 18:32:13.132 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-24 18:32:13.134 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-24 18:32:13.134 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-24 18:32:13.135 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-24 18:32:13.136 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-24 18:32:13.149 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-24 18:32:13.176 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-24 18:32:13.177 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-24 18:32:13.960 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-24 18:32:13.961 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-24 18:32:14.007 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-24 18:32:14.023 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-24 18:32:14.023 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-24 18:32:14.039 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6da00fb9
+[TRACE] 2021-08-24 18:32:14.041 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75b25825
+[TRACE] 2021-08-24 18:32:14.042 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18025ced
+[TRACE] 2021-08-24 18:32:14.043 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@13cf7d52
+[TRACE] 2021-08-24 18:32:14.044 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a3e4aff
+[TRACE] 2021-08-24 18:32:14.045 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5d2a4eed
+[TRACE] 2021-08-24 18:32:14.047 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@57459491
+[TRACE] 2021-08-24 18:32:14.048 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3f0846c6
+[DEBUG] 2021-08-24 18:32:14.076 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-24 18:32:14.077 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-24 18:32:14.077 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-24 18:32:14.077 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-24 18:32:14.078 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-24 18:32:14.078 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-24 18:32:14.078 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-24 18:32:14.078 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-24 18:32:14.079 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-24 18:32:14.079 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-24 18:32:14.079 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-24 18:32:14.079 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-24 18:32:14.096 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-24 18:32:14.096 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-24 18:32:14.096 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-24 18:32:14.464 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 2624 (auto-detected)
+[DEBUG] 2021-08-24 18:32:14.468 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-24 18:32:14.468 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-24 18:32:14.773 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-24 18:32:14.774 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-24 18:32:15.124 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-24 18:32:15.193 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-24 18:32:15.194 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-24 18:32:15.194 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3a466956
+[DEBUG] 2021-08-24 18:32:15.246 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-24 18:32:15.246 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-24 18:32:15.246 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-24 18:32:15.246 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-24 18:32:15.246 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[INFO ] 2021-08-24 18:32:21.018 [main] base - Browser is launched successfully
+[INFO ] 2021-08-24 18:32:25.631 [main] class - User is logged in successfully
+[INFO ] 2021-08-24 20:16:44.293 [main] base - Before Method is started
+[INFO ] 2021-08-24 20:16:44.299 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-24 20:16:44.625 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-24 20:16:44.637 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-24 20:16:44.637 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-24 20:16:44.657 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4196c360
+[DEBUG] 2021-08-24 20:16:44.699 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-24 20:16:44.703 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-24 20:16:44.703 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-24 20:16:44.705 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-24 20:16:44.712 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-24 20:16:44.713 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-24 20:16:44.716 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-24 20:16:44.717 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-24 20:16:44.718 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-24 20:16:44.718 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-24 20:16:44.718 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-24 20:16:44.720 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-24 20:16:44.720 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-24 20:16:44.723 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-24 20:16:44.724 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-24 20:16:44.735 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-24 20:16:44.736 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-24 20:16:44.753 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-24 20:16:44.858 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-24 20:16:44.858 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-24 20:16:46.369 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-24 20:16:46.369 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-24 20:16:46.492 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-24 20:16:46.529 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-24 20:16:46.530 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-24 20:16:46.551 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39ad977d
+[TRACE] 2021-08-24 20:16:46.554 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@20f12539
+[TRACE] 2021-08-24 20:16:46.555 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75b25825
+[TRACE] 2021-08-24 20:16:46.556 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18025ced
+[TRACE] 2021-08-24 20:16:46.557 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@13cf7d52
+[TRACE] 2021-08-24 20:16:46.558 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a3e4aff
+[TRACE] 2021-08-24 20:16:46.559 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5d2a4eed
+[TRACE] 2021-08-24 20:16:46.560 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@57459491
+[DEBUG] 2021-08-24 20:16:46.611 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-24 20:16:46.612 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-24 20:16:46.612 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-24 20:16:46.612 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-24 20:16:46.613 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-24 20:16:46.613 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-24 20:16:46.614 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-24 20:16:46.614 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-24 20:16:46.614 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-24 20:16:46.614 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-24 20:16:46.615 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-24 20:16:46.616 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-24 20:16:46.639 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-24 20:16:46.640 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-24 20:16:46.641 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-24 20:16:47.208 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 9504 (auto-detected)
+[DEBUG] 2021-08-24 20:16:47.212 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-24 20:16:47.212 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-24 20:16:47.631 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-24 20:16:47.633 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-24 20:16:48.060 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-24 20:16:48.165 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-24 20:16:48.166 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-24 20:16:48.166 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5760b5e2
+[DEBUG] 2021-08-24 20:16:48.216 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-24 20:16:48.216 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-24 20:16:48.216 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-24 20:16:48.216 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-24 20:16:48.216 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[INFO ] 2021-08-24 20:20:43.172 [main] base - Before Method is started
+[INFO ] 2021-08-24 20:20:43.178 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-24 20:20:43.500 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-24 20:20:43.512 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-24 20:20:43.512 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-24 20:20:43.520 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4196c360
+[DEBUG] 2021-08-24 20:20:43.564 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-24 20:20:43.567 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-24 20:20:43.568 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-24 20:20:43.569 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-24 20:20:43.570 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-24 20:20:43.571 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-24 20:20:43.573 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-24 20:20:43.574 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-24 20:20:43.574 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-24 20:20:43.575 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-24 20:20:43.575 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-24 20:20:43.576 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-24 20:20:43.577 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-24 20:20:43.582 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-24 20:20:43.583 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-24 20:20:43.586 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-24 20:20:43.586 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-24 20:20:43.600 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-24 20:20:43.663 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-24 20:20:43.663 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-24 20:20:44.706 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-24 20:20:44.706 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-24 20:20:44.783 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-24 20:20:44.800 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-24 20:20:44.801 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-24 20:20:44.828 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39ad977d
+[TRACE] 2021-08-24 20:20:44.831 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@20f12539
+[TRACE] 2021-08-24 20:20:44.834 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75b25825
+[TRACE] 2021-08-24 20:20:44.835 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18025ced
+[TRACE] 2021-08-24 20:20:44.836 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@13cf7d52
+[TRACE] 2021-08-24 20:20:44.838 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a3e4aff
+[TRACE] 2021-08-24 20:20:44.843 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5d2a4eed
+[TRACE] 2021-08-24 20:20:44.845 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@57459491
+[DEBUG] 2021-08-24 20:20:44.890 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-24 20:20:44.891 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-24 20:20:44.892 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-24 20:20:44.892 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-24 20:20:44.893 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-24 20:20:44.893 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-24 20:20:44.894 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-24 20:20:44.894 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-24 20:20:44.894 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-24 20:20:44.894 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-24 20:20:44.894 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-24 20:20:44.895 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-24 20:20:44.912 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-24 20:20:44.913 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-24 20:20:44.913 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-24 20:20:45.464 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 13204 (auto-detected)
+[DEBUG] 2021-08-24 20:20:45.493 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-24 20:20:45.494 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-24 20:20:45.887 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-24 20:20:45.888 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-24 20:20:46.291 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-24 20:20:46.409 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-24 20:20:46.410 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-24 20:20:46.410 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5f7dc35c
+[DEBUG] 2021-08-24 20:20:46.464 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-24 20:20:46.464 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-24 20:20:46.465 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-24 20:20:46.465 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-24 20:20:46.465 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-08-24 20:23:47.725 [AsyncHttpClient-1-2] PoolThreadCache - Freed 4 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+[INFO ] 2021-08-24 20:25:09.860 [main] base - Before Method is started
+[INFO ] 2021-08-24 20:25:09.871 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-24 20:25:10.160 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-24 20:25:10.169 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-24 20:25:10.169 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-24 20:25:10.179 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4167d97b
+[DEBUG] 2021-08-24 20:25:10.218 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-24 20:25:10.221 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-24 20:25:10.221 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-24 20:25:10.224 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-24 20:25:10.225 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-24 20:25:10.226 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-24 20:25:10.228 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-24 20:25:10.230 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-24 20:25:10.230 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-24 20:25:10.231 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-24 20:25:10.231 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-24 20:25:10.232 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-24 20:25:10.233 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-24 20:25:10.235 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-24 20:25:10.236 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-24 20:25:10.240 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-24 20:25:10.241 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-24 20:25:10.253 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-24 20:25:10.294 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-24 20:25:10.294 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-24 20:25:11.218 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-24 20:25:11.219 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-24 20:25:11.292 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-24 20:25:11.312 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-24 20:25:11.312 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-24 20:25:11.325 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@640f11a1
+[TRACE] 2021-08-24 20:25:11.327 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@78365cfa
+[TRACE] 2021-08-24 20:25:11.328 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@64a8c844
+[TRACE] 2021-08-24 20:25:11.329 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3f6db3fb
+[TRACE] 2021-08-24 20:25:11.330 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@52de51b6
+[TRACE] 2021-08-24 20:25:11.333 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18c5069b
+[TRACE] 2021-08-24 20:25:11.334 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a0d172f
+[TRACE] 2021-08-24 20:25:11.336 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68ad99fe
+[DEBUG] 2021-08-24 20:25:11.373 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-24 20:25:11.374 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-24 20:25:11.374 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-24 20:25:11.374 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-24 20:25:11.374 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-24 20:25:11.375 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-24 20:25:11.375 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-24 20:25:11.375 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-24 20:25:11.375 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-24 20:25:11.376 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-24 20:25:11.376 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-24 20:25:11.376 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-24 20:25:11.390 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-24 20:25:11.390 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-24 20:25:11.391 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-24 20:25:11.885 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 12704 (auto-detected)
+[DEBUG] 2021-08-24 20:25:11.888 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-24 20:25:11.888 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-24 20:25:12.244 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-24 20:25:12.246 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-24 20:25:12.625 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-24 20:25:12.705 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-24 20:25:12.706 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-24 20:25:12.706 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4751b969
+[DEBUG] 2021-08-24 20:25:12.748 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-24 20:25:12.748 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-24 20:25:12.748 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-24 20:25:12.749 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-24 20:25:12.749 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[INFO ] 2021-08-24 20:28:00.479 [main] base - Before Method is started
+[INFO ] 2021-08-24 20:28:00.495 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-24 20:28:00.761 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-24 20:28:00.769 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-24 20:28:00.770 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-24 20:28:00.776 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4167d97b
+[DEBUG] 2021-08-24 20:28:00.821 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-24 20:28:00.823 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-24 20:28:00.823 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-24 20:28:00.826 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-24 20:28:00.827 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-24 20:28:00.828 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-24 20:28:00.828 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-24 20:28:00.830 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-24 20:28:00.830 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-24 20:28:00.831 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-24 20:28:00.831 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-24 20:28:00.832 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-24 20:28:00.832 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-24 20:28:00.833 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-24 20:28:00.834 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-24 20:28:00.835 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-24 20:28:00.836 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-24 20:28:00.851 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-24 20:28:00.887 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-24 20:28:00.887 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-24 20:28:01.814 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-24 20:28:01.815 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-24 20:28:01.891 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-24 20:28:01.907 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-24 20:28:01.908 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-24 20:28:01.923 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@640f11a1
+[TRACE] 2021-08-24 20:28:01.925 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@78365cfa
+[TRACE] 2021-08-24 20:28:01.926 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@64a8c844
+[TRACE] 2021-08-24 20:28:01.927 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3f6db3fb
+[TRACE] 2021-08-24 20:28:01.928 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@52de51b6
+[TRACE] 2021-08-24 20:28:01.929 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18c5069b
+[TRACE] 2021-08-24 20:28:01.930 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a0d172f
+[TRACE] 2021-08-24 20:28:01.932 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68ad99fe
+[DEBUG] 2021-08-24 20:28:01.969 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-24 20:28:01.969 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-24 20:28:01.970 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-24 20:28:01.970 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-24 20:28:01.970 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-24 20:28:01.971 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-24 20:28:01.971 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-24 20:28:01.972 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-24 20:28:01.972 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-24 20:28:01.972 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-24 20:28:01.973 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-24 20:28:01.973 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-24 20:28:01.989 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-24 20:28:01.990 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-24 20:28:01.990 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-24 20:28:02.583 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 2116 (auto-detected)
+[DEBUG] 2021-08-24 20:28:02.598 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-24 20:28:02.598 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-24 20:28:03.022 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-24 20:28:03.024 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-24 20:28:03.458 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-24 20:28:03.554 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-24 20:28:03.555 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-24 20:28:03.555 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@68f5a483
+[DEBUG] 2021-08-24 20:28:03.594 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-24 20:28:03.594 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-24 20:28:03.595 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-24 20:28:03.595 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-24 20:28:03.596 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[INFO ] 2021-08-24 20:28:10.934 [main] base - Browser is launched successfully
+[INFO ] 2021-08-24 20:28:16.103 [main] class - User is logged in successfully
+[INFO ] 2021-08-24 20:29:01.545 [main] base - Before Method is started
+[INFO ] 2021-08-24 20:29:01.558 [main] base - Executing on browser Chrome
+[DEBUG] 2021-08-24 20:29:01.832 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-08-24 20:29:01.842 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-08-24 20:29:01.842 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-08-24 20:29:01.848 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4167d97b
+[DEBUG] 2021-08-24 20:29:01.893 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-08-24 20:29:01.895 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-08-24 20:29:01.896 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-08-24 20:29:01.898 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-08-24 20:29:01.899 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-08-24 20:29:01.901 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-08-24 20:29:01.902 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-08-24 20:29:01.904 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-08-24 20:29:01.904 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-08-24 20:29:01.905 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-08-24 20:29:01.906 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-08-24 20:29:01.907 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-08-24 20:29:01.907 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-08-24 20:29:01.910 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 2787115008 bytes
+[DEBUG] 2021-08-24 20:29:01.910 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-08-24 20:29:01.914 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-08-24 20:29:01.915 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-08-24 20:29:01.930 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-08-24 20:29:01.964 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-08-24 20:29:01.964 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-08-24 20:29:02.873 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-08-24 20:29:02.874 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-08-24 20:29:02.948 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-08-24 20:29:02.965 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-08-24 20:29:02.966 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-08-24 20:29:02.986 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@640f11a1
+[TRACE] 2021-08-24 20:29:02.988 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@78365cfa
+[TRACE] 2021-08-24 20:29:02.989 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@64a8c844
+[TRACE] 2021-08-24 20:29:02.991 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3f6db3fb
+[TRACE] 2021-08-24 20:29:02.992 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@52de51b6
+[TRACE] 2021-08-24 20:29:02.994 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18c5069b
+[TRACE] 2021-08-24 20:29:02.996 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a0d172f
+[TRACE] 2021-08-24 20:29:02.997 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68ad99fe
+[DEBUG] 2021-08-24 20:29:03.031 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-08-24 20:29:03.032 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-08-24 20:29:03.032 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-08-24 20:29:03.032 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-08-24 20:29:03.032 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-08-24 20:29:03.033 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-08-24 20:29:03.033 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-08-24 20:29:03.033 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-08-24 20:29:03.033 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-08-24 20:29:03.034 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-08-24 20:29:03.034 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-08-24 20:29:03.034 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-08-24 20:29:03.053 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-08-24 20:29:03.053 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-08-24 20:29:03.054 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-08-24 20:29:03.534 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 3912 (auto-detected)
+[DEBUG] 2021-08-24 20:29:03.538 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-08-24 20:29:03.538 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-08-24 20:29:03.894 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-08-24 20:29:03.895 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-08-24 20:29:04.273 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 18:1d:ea:ff:fe:61:82:3f (auto-detected)
+[DEBUG] 2021-08-24 20:29:04.350 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-08-24 20:29:04.352 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-08-24 20:29:04.353 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7ba73254
+[DEBUG] 2021-08-24 20:29:04.392 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-08-24 20:29:04.392 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-08-24 20:29:04.392 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-08-24 20:29:04.392 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-08-24 20:29:04.393 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[INFO ] 2021-08-24 20:29:10.043 [main] base - Browser is launched successfully
+[INFO ] 2021-08-24 20:29:14.781 [main] class - User is logged in successfully
